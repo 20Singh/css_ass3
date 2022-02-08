@@ -1,0 +1,218 @@
+.test{
+    height: 40px;
+    width:auto;
+    background-image: linear-gradient(
+        to right,
+        red,
+        green,
+        yellow
+    );
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.table{
+    list-style-type: disc;
+    list-style-position:outside;
+    height:80px;
+    width: 900px;
+    border-radius: 10px;
+    border:7px solid red;
+    margin:20px 60px 0px 160px; 
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:gray;
+}
+.main{
+    background-color:lightgreen;
+    height:200px;
+    width:1700px;
+    margin:20px 30px 30px 10px;
+    position: absolute;
+    left:0px;
+    border-radius: 10px;
+    border:4px solid brown;
+}
+.box1{
+    border:5px solid green;
+    background-color: aqua;
+    border-radius:10px;
+    width:410px;
+    height:70px;
+   font-size:15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:20px;
+}
+.box2{
+    border:3px solid green;
+    background-color: aqua;
+    border-radius:10px;
+    width:450px;
+    height:70px;
+   font-size:15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom:100px;
+    left:450px;
+}
+    
+.box3{
+    border:3px solid green;
+    background-color: aqua;
+    border-radius:10px;
+    width:450px;
+    height:70px;
+   font-size:15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom:100px;
+    left:450px;
+}
+.box4{
+    border:3px solid green;
+    background-color: aqua;
+    border-radius:10px;
+    width:450px;
+    height:70px;
+     font-size:15px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left:940px;
+    bottom:280px;
+}
+.block{
+    height:40px;
+    width:1300;
+    background-image: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        red
+    );
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+    position: relative;
+    bottom:170px;
+}
+.main2{
+    height:350px;
+    width:1700px;
+    background-image: radial-gradient(
+        green,
+        darkblue,
+        aqua,
+        green
+
+    );
+    margin:20px 30px 30px 10px;
+    position: absolute;
+    left:0px;
+    top:270px;
+    border:4px solid brown;
+
+}
+.box5{
+    border-radius: 25px;
+    border:6px solid red;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    position:relative;
+    left:40px;
+    top:70px;
+    background-color: yellow;
+}
+.box6{
+    border-radius: 25px;
+    border:6px solid red;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    position:relative;
+    left:400px;
+   bottom:80px;
+    background-color: yellow;
+
+}
+.box7{
+
+    border-radius: 25px;
+    border:6px solid red;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    position:relative;
+    left:750px;
+   bottom:230px;
+    background-color: yellow;
+}
+.box8{
+    border-radius: 25px;
+    border:6px solid red;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    position:relative;
+    left:1100px;
+   bottom:380px;
+    background-color: yellow;
+}
+.grid-container{
+    border: 2px solid black;
+    color: white;
+    margin-top:220px ;
+    display: grid;
+    grid-template-rows: 50px 90px 150px 45px;
+    grid-template-columns: auto auto auto 120px;
+    gap: 15px 15px;
+    text-align: left;
+}
+.grid-item1{
+    background-color: red;
+    text-align: center;
+    grid-column: 1/5;
+}
+.grid-item2{
+    background-color: rgb(50, 202, 50);
+    text-align: center;
+}
+.grid-item3{
+    background-color: rgb(79, 79, 209);
+}
+.grid-item4{
+    background-color: blue;
+}
+.grid-item5{
+    background-color: black;
+    grid-column: 4/5;
+    grid-row:2/4;
+}
+.grid-item6{
+    background-color: orange;
+    grid-column:1/4;
+}
+.grid-item7{
+    background-color: dodgerblue;
+    text-align: center;
+    grid-column: 1/5;
+}
+.grid{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
